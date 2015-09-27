@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio - Erwan Osouf</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Site Web de Erwan Osouf - Ingénieur Etudes et Développement">
+		<meta name="keywords" content="Erwan Osouf, Ingénieur, Etudes, Developpement">
+		<meta name="author" content="Erwan Osouf">
+		<script type="text/javascript">
+			var lang = window.navigator.language;
+			if (lang === 'en') {
+				redirect('en');
+			} else {
+				redirect('fr');
+			}
+			
+			function redirect(pLanguage) {
+				window.location = './' + pLanguage + '/index.html';
+			}
+		</script>
+	</head>
+</html>
