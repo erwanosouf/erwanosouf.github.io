@@ -1,0 +1,57 @@
+html, body {
+  width : 100%;
+  height : 100%;
+  margin : 0 auto;
+}
+/*  CONTENT  */
+.content {
+  color : black;
+}
+
+.content-wrapper.loading .content, .content-wrapper .loading-spinner{
+  display : none;
+}
+
+.content-wrapper.loading .loading-spinner, .content-wrapper .content{
+  display : block;
+}
+
+dl.padded dt, dl.padded dd{
+  padding-top : 10px;
+}
+
+dl.line-break dd {
+  white-space: pre-line;
+}
+
+dl dt {
+  font-weight : bold;
+}
+
+section h1 {
+  text-align: center;
+}
+
+
+.loading-spinner {
+  text-align: center;
+  padding-top: 30%;
+}
+
+
+/*  LINKS  */
+a.navigation-link.pure-menu-heading {
+  text-align : center;
+}
+
+a .fa {
+    margin-right : 15px;
+}
+
+a.contact-link {
+  color : #777;
+}
+
+a.contact-link:hover {
+  text-decoration : none;
+}
