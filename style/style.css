@@ -28,7 +28,7 @@ dl dt {
   font-weight : bold;
 }
 
-section h1 {
+section h1, section h2 {
   text-align: center;
 }
 
@@ -42,16 +42,17 @@ section h1 {
 /*  LINKS  */
 a.navigation-link.pure-menu-heading {
   text-align : center;
+  text-decoration : none;
 }
 
 a .fa {
     margin-right : 15px;
 }
 
-a.contact-link {
+a {
   color : #777;
 }
 
-a.contact-link:hover {
+a:hover {
   text-decoration : none;
 }
