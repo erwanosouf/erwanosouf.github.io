@@ -6,6 +6,16 @@ var data = {
         },
         title : "Lead Developer Full Stack"
     },
+    hobbies : [{ 
+        name : "Coordinateur Pédagogique / Formateur (Depuis Juillet 2015)",
+		description : `Association Belleville Citoyenne
+			<br />Projet _blank : enseignement de la programmation web à des jeunes de quartiers populaires.
+			<a href="http://blank.bellevillecitoyenne.fr/">blank.bellevillecitoyenne.fr</a>
+		</dd>`
+    }, { 
+        name : "Sports",
+        description : "Bodyboard, Planche à Voile"
+    }],
     contacts : [{
         name : "Mail", 
         link: "mailto:erwan.osouf@gmail.com?subject=Contact%20via%20votre%20Portfolio",

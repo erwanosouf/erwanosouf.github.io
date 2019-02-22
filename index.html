@@ -22,7 +22,13 @@
 			<presentation :who="me">
 
 			</presentation>
-			<section lang="fr">
+			<section id="hobbies" lang="fr">
+				<h2>Centres d'interêt</h2>
+				<hobby v-for="hobby in hobbies" :hobby="hobby" :key="hobby.name">
+					<div v-html="hobby.description"></div>
+				</hobby>
+			</section>
+			<section id="contacts" lang="fr">
 				<h2>Contact</h2>
 				<contact v-for="contact in contacts" :contact="contact" :key="contact.name"></contact>
 			</section>
