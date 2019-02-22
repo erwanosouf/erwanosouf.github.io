@@ -27,35 +27,6 @@
 				</header>
 				<div class="content-wrapper">
 					<div class="content">
-						<section data-page="home" lang="fr">
-							<h2>Bienvenue sur mon Site !</h2>
-							<p>
-									Je suis actuellement Ingénieur Etudes et Développements chez <a href="https://www.praxedo.com/">Praxedo</a>,
-									un éditeur de logiciel basé à Paris.
-									<br />Praxedo édite une solution <abbr title="Software As A Service">SaaS</abbr> de gestion d'interventions
-									à destination des techniciens, livreurs et inspecteurs.
-									<br />Praxedo est le leader français dans ce domaine.
-							</p>
-							<p>
-								Je réalise des évolutions sur la plate-forme Praxedo Interventions, que ce soit en back-end ou front-end.
-								<br />Pour plus d'informations, je vous invite à consulter mes <a href="experiences.html" class="navigation-link">Expériences</a> et
-								<a href="skills.html" class="navigation-link">Compétences</a>.
-								<br />Vous pouvez également télécharger mon <a href="docs/Erwan_OSOUF_CV.pdf" download target="_blank">CV</a>.
-							</p>
-							<p>
-								Je suis diplômé de l'<a href="http://www.mines-nantes.fr/">Ecole des Mines de Nantes</a> (Promotion 2013) et spécialisé dans l'informatique décisionnelle.
-								<br /> Pour plus de détails sur mon parcours, vous pouvez consulter la page dédiée à ma <a href="formation.html" class="navigation-link">formation</a>.
-							</p>
-							<p>
-								Si vous êtes intéréssé par mon profil, n'hésitez pas à me <a href="contact.html" class="navigation-link">contacter</a>.
-								<br />Vous pouvez même m'ajouter à votre
-								<a href="mailto:erwan.osouf@gmail.com?subject=Je%20suis%20interessé%20par%20votre%20profil" class="navigation-link">panier</a> !
-							</p>
-							<p>
-								A bientôt !
-								<br /> Erwan Osouf
-							</p>
-						</section>
 					</div>
 				</div>
 			</main>
