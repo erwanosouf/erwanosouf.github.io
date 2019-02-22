@@ -20,8 +20,12 @@
 		<!-- Actual content -->
 		<div id="app">
 			<presentation :who="me">
-
+				
 			</presentation>
+			<section id="skills" lang="fr">
+				<h2>Compétences</h2>
+				<skill :skill="this"></skill>
+			</section>
 			<section id="hobbies" lang="fr">
 				<h2>Centres d'interêt</h2>
 				<hobby v-for="hobby in hobbies" :hobby="hobby" :key="hobby.name">

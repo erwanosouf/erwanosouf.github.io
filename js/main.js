@@ -6,6 +6,76 @@ var data = {
         },
         title : "Lead Developer Full Stack"
     },
+    skills : [{
+        name : "Back-End",
+        skills : [
+            { 
+                name : "Java - JEE",
+                skills : [
+
+                ]
+            },
+            { 
+                name : "SQL", 
+                skills : [
+                    { name : "Sybase ASA" },
+                    { name : "PostgreSQL" }
+                ]
+            },
+            { 
+                name : "Web Services",
+                skills : [
+                    { name : "SOAP" },
+                    { name : "REST" }
+                ]
+            },
+            { name : "Apache Tomcat" }
+        ]
+    }, {
+        name : "Front-End",
+        skills : [
+            { name : "HTML5/CSS3" },
+            { name : "LESS" },
+            { name : "JavaScript" }
+        ]
+    }, {
+        name : "Conception",
+        skills : [
+            { name : "UML" },
+            { name : "Rédaction de Spécifications Techniques" }
+        ]
+    }, {
+        name : "Aide à la décision",
+        skills : [
+            { name : "Optimisation Combinatoire" },
+            { name : "Programmation par Contraintes" },
+            { name : "Métaheuristiques" },
+            { name : "Data Visualization" },
+            { name : "Data Mining" },
+        ]
+    }, {
+        name : "Outils",
+        skills : [
+            { name : "Eclipse IDE" },
+            { name : "CVS – Git" },
+            { name : "Jenkins CI" },
+            { name : "Google Apps" }
+        ]
+    }, {
+        name : "Systèmes d’exploitation",
+        skills : [
+            { name : "Windows (OS/Server)" },
+            { name : "Linux (Ubuntu)" },
+        ]
+    }, {
+        name : "Langues",
+        skills : [
+            { name : "Anglais", level : "Bon niveau" },
+			{ name : "IELTS", level : "7,5/9" },
+			{ name : "Espagnol", level : "Niveau scolaire" },
+			{ name : "Créole Guadeloupéen", level : "parlé" }
+        ]
+    }],
     hobbies : [{ 
         name : "Coordinateur Pédagogique / Formateur (Depuis Juillet 2015)",
 		description : `Association Belleville Citoyenne
