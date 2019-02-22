@@ -76,6 +76,23 @@ var data = {
 			{ name : "Créole Guadeloupéen", level : "parlé" }
         ]
     }],
+    formations : [{ 
+        name : "École des Mines de Nantes (2009 – 2013)",
+        description : " Formation Ingénieur, Option Génie Informatique pour l’Aide à la Décision"
+	}, { 
+        name : "École Polytechnique de Montréal (2011/2012)",
+        description : "Transfert de Crédit, Certificat en Génie Informatique et Logiciel."
+	}, { 
+        name : "Classe Préparatoire aux Grandes Écoles (2008/2009)", 
+        description : 
+        `Option PCSI, Major de Promotion.
+		<br />Lycée Baimbridge – Pointe-à-Pitre, Guadeloupe`
+    }, { 
+        name : "Baccalauréat (2008)",
+        label : 
+        `Série S, mention Très Bien
+		<br />Lycée Poirier de Gissac – Sainte Anne, Guadeloupe`
+    }],
     hobbies : [{ 
         name : "Coordinateur Pédagogique / Formateur (Depuis Juillet 2015)",
 		description : `Association Belleville Citoyenne

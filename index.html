@@ -26,6 +26,12 @@
 				<h2>Compétences</h2>
 				<skill :skill="this"></skill>
 			</section>
+			<section id="formation" lang="fr">
+				<h2>Formation</h2>
+				<formation v-for="formation in formations" :formation="formation" :key="formation.name">
+					<div v-html="formation.description"></div>
+				</formation>			
+			</section>
 			<section id="hobbies" lang="fr">
 				<h2>Centres d'interêt</h2>
 				<hobby v-for="hobby in hobbies" :hobby="hobby" :key="hobby.name">
