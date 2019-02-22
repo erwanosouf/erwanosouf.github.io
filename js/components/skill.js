@@ -1,21 +1,26 @@
 Vue.component('skill', {
-    template : `<div :class="{ skill : true, root: root }">
+    template : `<div class="skill" :class="getClass()">
         <span class="skill-name" v-if="skill.name">{{ skill.name }}</span>
         <span class="skill-level" v-if="skill.level"> : {{ skill.level }}</span>
         <div v-if="!isLeaf()" class="subskills">
-            <skill v-for="subskill in skill.skills" :root="false" :skill="subskill" :key="subskill.name">
+            <skill v-for="subskill in skill.skills" :level="level + 1" :skill="subskill" :key="subskill.name" />
         </div>
     </div>`,
     props : {
-        skill : Array,
-        root : {
-            type: Boolean,
-            default: true
+        skill : Object,
+        level : {
+            type: Number,
+            default: 0
         }
     },
     methods : {
         isLeaf : function() {
             return !this.skill.skills || this.skill.skills.length == 0;
+        },
+        getClass : function() {
+            var cl = {};
+            cl['skill-level-' + this.level] = true;
+            return cl;
         }
     }
 });
