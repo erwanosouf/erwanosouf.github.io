@@ -18,17 +18,26 @@
 			<i class="fa fa-spinner fa-spin fa-4x"></i>
 		</div>
 		<!-- Actual content -->
-		<div class="layout">
-			<header class="header">
-				<h1>Erwan Osouf</h1>
-				<h2>Lead Developer - Full Stack</h2>
-			</header>
+		<div id="app">
+			<presentation :who="me">
+
+			</presentation>
+			<section lang="fr">
+				<h2>Contact</h2>
+				<contact v-for="contact in contacts" :contact="contact" :key="contact.name"></contact>
+			</section>
 		</div>
 	</body>
 	<!-- SCRIPTS -->
 	<!-- development version, includes helpful console warnings -->
-	<script defer src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<!-- production version, optimized for size and speed -->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
-	<script defer src="js/main.js"></script>
+	<script src="js/components/contact.js"></script>
+	<script src="js/components/experience.js"></script>
+	<script src="js/components/formation.js"></script>
+	<script src="js/components/hobby.js"></script>
+	<script src="js/components/presentation.js"></script>
+	<script src="js/components/skill.js"></script>
+	<script src="js/main.js"></script>
 </html>

@@ -1,2 +1,33 @@
+var data = {
+    me : {
+        name : {
+            first : "Erwan",
+            last : "Osouf"
+        },
+        title : "Lead Developer Full Stack"
+    },
+    contacts : [{
+        name : "Mail", 
+        link: "mailto:erwan.osouf@gmail.com?subject=Contact%20via%20votre%20Portfolio",
+        icon : "fa fa-envelope",
+        value : "erwan.osouf@gmail.com"
+    }, {
+        name : "Téléphone",
+        link : "tel:+33679512518",
+        icon : "fa fa-phone",
+        value : "(+33) 6 79 51 25 18"
+    }, { 
+        name : "LinkedIn",
+        link : "https://www.linkedin.com/in/erwanosouf",
+        icon : "fa fa-linkedin",
+        value : "LinkedIn" 
+    }]
+};
+
+var app = new Vue({
+    el: '#app',
+    data: data
+});
+
 // Displays document
 document.getElementsByTagName('body')[0].classList.remove('loading');
