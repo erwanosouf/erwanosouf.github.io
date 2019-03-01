@@ -6,10 +6,25 @@ var data = {
         },
         title : "Lead Developer Full Stack"
     },
+    nav : {
+        heading : {
+            href : "#",
+            label : "Erwan Osouf"
+        },
+        items : [
+            { href : "#experiences", icon : "fa-briefcase", label : "Expériences" },
+            { href : "#skills", icon : "fa-check", label : "Compétences" },
+            { href : "#formation", icon : "fa-graduation-cap", label : "Formation" },
+            { href : "#hobbies", icon : "fa-star", label : "Centres d'interêt" },
+            { href : "#contact", icon : "fa-envelope", label : "Contact" },
+            { href : "mailto:erwan.osouf@gmail.com?subject=Je%20suis%20interessé%20par%20votre%20profil", icon: "fa-cart-plus", label : "Ajouter au panier" },
+            { href : "docs/Erwan_OSOUF_CV.pdf", icon: "fa-cloud-download", label : "CV", attrs : { download : "download", target:"_blank"}}
+        ]
+    },
     description : `
     <h2>Bienvenue sur mon Site !</h2>
     <p>
-            Je suis actuellement Ingénieur Etudes et Développements chez <a href="https://www.praxedo.com/">Praxedo</a>,
+            Je suis actuellement Ingénieur Etudes et Développements chez <a href : "https://www.praxedo.com/">Praxedo</a>,
             un éditeur de logiciel basé à Paris.
             <br />Praxedo édite une solution <abbr title="Software As A Service">SaaS</abbr> de gestion d'interventions
             à destination des techniciens, livreurs et inspecteurs.
@@ -17,18 +32,18 @@ var data = {
     </p>
     <p>
         Je réalise des évolutions sur la plate-forme Praxedo Interventions, que ce soit en back-end ou front-end.
-        <br />Pour plus d'informations, je vous invite à consulter mes <a href="experiences.html" class="navigation-link">Expériences</a> et
-        <a href="skills.html" class="navigation-link">Compétences</a>.
-        <br />Vous pouvez également télécharger mon <a href="docs/Erwan_OSOUF_CV.pdf" download target="_blank">CV</a>.
+        <br />Pour plus d'informations, je vous invite à consulter mes <a href : "experiences.html" class="navigation-link">Expériences</a> et
+        <a href : "skills.html" class="navigation-link">Compétences</a>.
+        <br />Vous pouvez également télécharger mon <a href : "docs/Erwan_OSOUF_CV.pdf" download target="_blank">CV</a>.
     </p>
     <p>
-        Je suis diplômé de l'<a href="http://www.mines-nantes.fr/">Ecole des Mines de Nantes</a> (Promotion 2013) et spécialisé dans l'informatique décisionnelle.
-        <br /> Pour plus de détails sur mon parcours, vous pouvez consulter la page dédiée à ma <a href="formation.html" class="navigation-link">formation</a>.
+        Je suis diplômé de l'<a href : "http://www.mines-nantes.fr/">Ecole des Mines de Nantes</a> (Promotion 2013) et spécialisé dans l'informatique décisionnelle.
+        <br /> Pour plus de détails sur mon parcours, vous pouvez consulter la page dédiée à ma <a href : "formation.html" class="navigation-link">formation</a>.
     </p>
     <p>
-        Si vous êtes intéréssé par mon profil, n'hésitez pas à me <a href="contact.html" class="navigation-link">contacter</a>.
+        Si vous êtes intéréssé par mon profil, n'hésitez pas à me <a href : "contact.html" class="navigation-link">contacter</a>.
         <br />Vous pouvez même m'ajouter à votre
-        <a href="mailto:erwan.osouf@gmail.com?subject=Je%20suis%20interessé%20par%20votre%20profil" class="navigation-link">panier</a> !
+        <a href : "mailto:erwan.osouf@gmail.com?subject=Je%20suis%20interessé%20par%20votre%20profil" class="navigation-link">panier</a> !
     </p>
     <p>
         A bientôt !
@@ -143,10 +158,11 @@ var data = {
         },
         date : "2013",
         duration : "6 mois",
-        projects : [
-            "Spécifications et développement d’algorithmes pour l’optimisation de tournées de techniciens sous contraintes.",
-            "Benchmarks, tests unitaires et documentation."
-        ]
+        projects : [{ 
+            label : "Spécifications et développement d’algorithmes pour l’optimisation de tournées de techniciens sous contraintes."
+        },{ 
+            label : "Benchmarks, tests unitaires et documentation."
+        }]
     }],
     formations : [{ 
         name : "École des Mines de Nantes (2009 – 2013)",
@@ -169,7 +185,7 @@ var data = {
         name : "Coordinateur Pédagogique / Formateur (Depuis Juillet 2015)",
 		description : `Association Belleville Citoyenne
 			<br />Projet _blank : enseignement de la programmation web à des jeunes de quartiers populaires.
-			<a href="http://blank.bellevillecitoyenne.fr/">blank.bellevillecitoyenne.fr</a>
+			<a href : "http://blank.bellevillecitoyenne.fr/">blank.bellevillecitoyenne.fr</a>
 		</dd>`
     }, { 
         name : "Sports",
